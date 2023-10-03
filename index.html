@@ -1,48 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Buy | Sell | Pass</title>
-<meta name="description" content="Buy | Sell | Pass">
-<meta name="keywords" content="Buy | Sell | Pass">
-<style>
-    .bg--grey{
-        background: #9fa1ad;
-    }
-    .bg--space-cadet{
-        background: #141B41;
-    }
-    .bg--blue-violet-crayola{
-        background:#7768AE;
-    }
-    .bg--blue-violet-crayola{
-    background: #3576EE;
-    }
-    .bg--han-purple{
-        background: #4D34ED;
-    }
-    .bg--gold{
-        background: #FFD700;
-    }
-    img{
-        width: 60%;
-        margin: 0 auto;
-    }
-    html{
-        height: 100%;
-    }
-    body{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
-        justify-content: center;
-    }
-</style>
+    <script src="./jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap" />    
+    <title>Buy Sell Pass</title>
+    <meta name="description" content="Buy Sell Pass">
+    <meta name="keywords" content="Buy Sell Pass">
+    <style>
+        .bg--grey{
+            background: #9fa1ad;
+        }
+        .bg--space-cadet{
+            background: #141B41;
+        }
+        .bg--blue-violet-crayola{
+            background:#7768AE;
+        }
+        .bg--blue-violet-crayola{
+        background: #3576EE;
+        }
+        .bg--han-purple{
+            background: #4D34ED;
+        }
+        .bg--gold{
+            background: #FFD700;
+        }
+        img{
+            width: 60%;
+            margin: 0 auto;
+        }
+        html{
+            height: 100%;        
+        }
+
+        body{        
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+            font-family: PT Sans Narrow, sans-serif;
+            font-size: 16px;
+        }
+        @media only screen and ( max-width: 768px ) {
+            body{
+                font-size: 12px;
+            }
+        }
+        p{
+            margin-bottom: 0;
+            max-width: 500px;
+        }
+        form{
+            margin-top: 20px;
+        }
+        input{
+            width: 200px;
+            line-height: 1.4em;
+            height: 30px;
+            border: 1px solid #000;
+            padding: 0 8px;
+            text-align: center;
+            padding-inline: 0;
+            font-size: 16px;
+        }
+        input[type="submit"]{
+            margin-top: 10px;
+            background:black;
+            color: #fff;
+        }
+        @media only screen and ( max-width: 768px ) {
+            input{
+                font-size: 12px;
+            }
+        }
+        .error{
+            padding: 10px;
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        .success{
+            padding: 10px;
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid  #c3e6cb;
+        }
+    </style>    
 </head>
 <body class="">
     
-<img src="./bsp-logo.svg" alt="Buy | Sell | Pass Logo" />
+<img src="./bsp-logo.svg" alt="Buy Sell Pass Logo" />
+<p>Concise, dependable, actionable - Buy Sell Pass provides you with a daily summary of the catalysts driving price changes in the world's biggest stocks.</p>
+<p>We are seeking a cohort of forward-looking individuals to access our service for free during our Beta stage, prior to our paid subscription launch in 2024.</p>
+<p>Simply enter your email below to join the team - no fee, no spam, unsubscribe at any time:</p>
+<div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+      #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="">
+  <form action="https://buysellpass.us21.list-manage.com/subscribe/post?u=a7e6460685a28186b9ce37240&amp;id=b12cef6027&amp;f_id=0096e3e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <div id="mc_embed_signup_scroll">
+          
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address</label><br />
+            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="e.g. john@gmail.com"><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+      <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+      </div>
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+      /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+      <input type="text" name="b_a7e6460685a28186b9ce37240_b12cef6027" tabindex="-1" value="">
+  </div>
+      <div class="optionalParent">
+          <div class="clear foot">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">              
+          </div>
+      </div>
+      <div id="error">
 
+      </div>
+  </div>
+</form>
+</div>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        $('#mc-embedded-subscribe-form').submit( function(e){
+
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: 'https://buysellpass.us21.list-manage.com/subscribe/post-json?u=a7e6460685a28186b9ce37240&amp;id=b12cef6027&amp;f_id=0096e3e6f0&c=?',
+                data: $('#mc-embedded-subscribe-form').serialize(),
+                cache: false,
+                dataType: 'json',
+                contentType: "application/json; charset=utf-8",
+                error: (error) => {
+                    $('#error').html('<p class="error">Ooooops, there has been an error trying to process your request. Please try again later.</p>');
+                },
+                success: (res) => {
+                    $('#mc-embedded-subscribe-form').html('<p class="success">Congratulations &#127881;.<br />You have subscribed to our mail list. Stay tuned for updates.</p>');
+                }
+            });
+        });
+    });
+</script>
 </body>
 </html>
